@@ -44,21 +44,21 @@ function handleButtonClick() {
     var percBA = calcPerc(n2, n1)
     var avgAB = calcAvg(n1, n2)
 
-    sumResult.textContent = sum;
-    subABResult.textContent = subAB;
-    subBAResult.textContent = subBA;
-    multResult.textContent = mult;
-    divABResult.textContent = divAB;
-    divBAResult.textContent = divBA;
-    expABResult.textContent = expAB;
-    expBAResult.textContent = expBA;
-    sqrtAResult.textContent = sqrtA;
-    sqrtBResult.textContent = sqrtB;
-    factAResult.textContent = factA;
-    factBResult.textContent = factB;
-    percABResult.textContent = percAB;
-    percBAResult.textContent = percBA;
-    avgResult.textContent = avgAB;
+    sumResult.textContent = sum.toFixed(2);
+    subABResult.textContent = subAB.toFixed(2);
+    subBAResult.textContent = subBA.toFixed(2);
+    multResult.textContent = mult.toFixed(2);
+    divABResult.textContent = divAB.toFixed(2);
+    divBAResult.textContent = divBA.toFixed(2);
+    expABResult.textContent = expAB.toFixed(2);
+    expBAResult.textContent = expBA.toFixed(2);
+    sqrtAResult.textContent = sqrtA.toFixed(2);
+    sqrtBResult.textContent = sqrtB.toFixed(2);
+    factAResult.textContent = factA.toFixed(2);
+    factBResult.textContent = factB.toFixed(2);
+    percABResult.textContent = percAB.toFixed(2);
+    percBAResult.textContent = percBA.toFixed(2);
+    avgResult.textContent = avgAB.toFixed(2);
 }
 
 function calcSum(n1, n2){
