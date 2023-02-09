@@ -13,11 +13,11 @@
             <h1>Super Calculadora</h1>
             <p>
                 <label for="first-num">Primeiro Número (A): </label><br />
-                <input id="first-num" type="number" step="0.1" value="5"/><br />
+                <input id="first-num" type="number" step="0.1" value="3"/><br />
             </p>
             <p>
                 <label for="second-num">Segundo Número (B): </label><br />
-                <input id="second-num" type="number" step="0.1" value="3"/>
+                <input id="second-num" type="number" step="0.1" value="2"/>
             </p>
             <p>
                 <button id="button-calculate">Calcular</button>
@@ -25,13 +25,18 @@
             </header>
             <main>
 
-                <p id="paragraph-result">A soma é <strong id="sum-result"></strong></p>
 
 
 
-                <div id="sum"></div>
-                <div id="subAB"></div>
-                <div id="subBA"></div>
+                <div id="sum">
+                    <p>Soma <strong id="sum-result"></strong></p>
+                </div>
+                <div id="subAB">
+                    <p>Subtração A - B: <strong id="subAB-result"></strong></p>
+                </div>
+                <div id="subBA">
+                    <p>Subtração B - A: <strong id="subBA-result"></strong></p>
+                </div>
                 <div id="mult"></div>
                 <div id="divAB"></div>
                 <div id="divBA"></div>
